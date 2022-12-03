@@ -40,6 +40,7 @@ public class CouponController {
 
     @RequestMapping("/test")
     public R test(){
+
         return R.ok().put("username",username).put("userage", userage);
     }
 
